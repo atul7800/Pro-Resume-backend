@@ -106,6 +106,8 @@ coverage
 ############################
 
 .env
+.env.local
+.env.example
 license.txt
 exports
 .strapi
