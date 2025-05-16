@@ -15,15 +15,7 @@ module.exports = [
       },
     },
   },
-  {
-    name: "strapi::cors",
-    config: {
-      origin: ["https://pro-resume-frontend.vercel.app"], // 👈 allow your frontend domain
-      methods: ["GET", "POST", "PUT", "DELETE"],
-      headers: "*",
-      credentials: true,
-    },
-  },
+  "strapi::cors",
   "strapi::poweredBy",
   "strapi::query",
   "strapi::body",
