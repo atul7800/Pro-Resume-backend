@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_experiences_experiences",
+  "info": {
+    "displayName": "experiences",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "companyName": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "startDate": {
+      "type": "string",
+      "required": true
+    },
+    "endDate": {
+      "type": "string",
+      "required": true
+    },
+    "workSummary": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

@@ -25,12 +25,38 @@
     "userName": {
       "type": "string"
     },
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "experiences": {
+      "displayName": "experiences",
+      "type": "component",
+      "repeatable": true,
+      "component": "experiences.experiences",
+      "required": false
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education.education"
     }
   }
 }
